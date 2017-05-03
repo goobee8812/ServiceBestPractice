@@ -16,7 +16,7 @@ import okhttp3.Response;
 /**
  * Created by Administrator on 2017/4/27.
  */
-public class DownloadTask extends AsyncTask<String ,Integer,Integer> {
+public class DownloadTask extends AsyncTask<String ,Integer,Integer> {  //线程
     public static final int TYPE_SUCCESS = 0;
     public static final int TYPE_FAILED = 1;
     public static final int TYPE_PAUSED = 2;
